@@ -47,5 +47,10 @@
 .heading {
     background-color: #f1f1f1;
     padding: 3rem;
-    
+    text-align: center;
+    font-size: 35px;
+}
+
+.row {
+    background-color: #666;
 }
