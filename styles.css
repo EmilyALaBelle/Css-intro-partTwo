@@ -15,7 +15,6 @@
 .topnav a {
     float: left;
     color: #f2f2f2;
-    background-color: #666;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
@@ -32,7 +31,7 @@
 
 .container>img {
     width: 100%;
-    height: 80%;
+    height: 80vh;
     object-fit: cover;
 }
 
@@ -53,27 +52,22 @@
 }
 
 .row {
-    background-color: #666;
-}
-.row:after {
-    content: '';
-    display: table;
-    clear: both;
+    display: flex;
+    justify-content: space-between;
 }
 
 .column {
-    float: left;
-    width: 30%;
+    width: 33.3%;
     background-color: #676767;
-    padding: 10px;
+    /* padding: 10px; */
     margin-left: 10px;
-    height: 8rem;
+    height: 50rem;
     text-align: center;
     border: solid 2px #898989;
 }
 
-@media (max-width: 600px){
-    .column{
+@media (max-width: 600px) {
+    .column {
         width: 100%;
     }
 }
